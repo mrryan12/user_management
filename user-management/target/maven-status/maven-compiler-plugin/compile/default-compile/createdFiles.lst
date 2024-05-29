@@ -1,0 +1,6 @@
+com\example\user\UserManagement.class
+com\example\user\service\UserService.class
+com\example\user\controller\UserController.class
+com\example\user\serviceImpl\UserServiceImpl.class
+.netbeans_automatic_build
+com\example\user\domain\User.class

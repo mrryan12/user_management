@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.example.user.serviceImpl.UserServiceImpl
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.068 s <<< FAILURE! - in com.example.user.serviceImpl.UserServiceImpl
+testRegisterUser_InvalidUsername  Time elapsed: 0.041 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown ==> expected: <com.example.user.exception.InvalidFieldException> but was: <java.lang.NullPointerException>
+	at com.example.user.serviceImpl.UserServiceImpl.testRegisterUser_InvalidUsername(UserServiceImpl.java:58)
+Caused by: java.lang.NullPointerException
+	at com.example.user.serviceImpl.UserServiceImpl.lambda$testRegisterUser_InvalidUsername$0(UserServiceImpl.java:58)
+	at com.example.user.serviceImpl.UserServiceImpl.testRegisterUser_InvalidUsername(UserServiceImpl.java:58)
+
